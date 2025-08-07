@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panfilo Libang Portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; color: #f9f9f9;
+    }
+    body, html {
+      height: 100%; width: 100%;
+    }
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      animation: gradientShift 10s ease infinite alternate;
+    }
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 15px;
+      max-width: 800px;
+      margin: 20px;
+      animation: fadeIn 2s ease;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #ffe066;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .contact {
+      margin-top: 30px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px 15px;
+      text-decoration: none;
+      color: #ffd43b;
+      font-size: 1.1rem;
+      transition: transform 0.3s;
+    }
+    .contact a:hover {
+      transform: scale(1.1);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hi! I'm Panfilo Libang</h1>
+    <p>I am currently pursuing a Bachelor of Science in Criminology at the University of the Cordilleras. Passionate and driven, I am working hard to equip myself with the knowledge and skills necessary for a future in law enforcement or public service.</p>
+    <p>Outside of academics, I enjoy living an active and balanced lifestyle. My hobbies include reading books, which help me expand my understanding of the world, and playing various sports, which keep me physically and mentally sharp. I also have a passion for skydiving, which challenges me to overcome fear and embrace adventure.</p>
+    <p>I believe in discipline, continuous learning, and living life with courage and purpose. My goal is to serve my community with integrity and make a meaningful contribution to society.</p>
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <a href="mailto:panfilo.libang@gmail.com"><i class="fas fa-envelope"></i> panfilo.libang@gmail.com</a>
+      <a href="tel:09324236823"><i class="fas fa-phone"></i> 09324236823</a>
+      <a href="https://facebook.com/fhielo.phan" target="_blank"><i class="fab fa-facebook"></i> Fhielo Phan</a>
+      <a href="https://instagram.com/FhieloPhan" target="_blank"><i class="fab fa-instagram"></i> FhieloPhan</a>
+    </div>
+  </div>
+</body>
+</html>
